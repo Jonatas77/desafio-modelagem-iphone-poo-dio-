@@ -1,25 +1,3 @@
 # desafio-modelagem-iphone-poo-dio 
  desafio da DIO poo modelagem do iphone
-classDiagram
-    Iphone <|-- reprodutorMusical
-    Iphone <|-- aparelhoTelefonico
-    Iphone <|-- navegadorInternet
-    Iphone: reprodutorMusical
-    Iphone: aparelhoTelefonico
-    Iphone: navegadorInternet
-
-    class reprodutorMusical{
-        + tocar()            
-        + pausar()           
-        + selecionarMusica(musica: String)
-    }
-    class aparelhoTelefonico{
-        + ligar(numero: String) 
-        + atender()            
-        + iniciarCorreioVoz()  
-    }
-    class navegadorInternet{
-        + exibirPagina(url: String)
-        + adicionarNovaAba()        
-        + atualizarPagina()         
-    }
+[![](https://mermaid.ink/img/pako:eNqFk8FuozAQhl8F-ZSoaZQAKWD1stpeetjVSl31UHGZ4gmxCh404KpNNu--BtKUhCqdi7Hn1z_f2MNOZKRQSJEVUNd3GnKGMjWei_tqQwa923_X1x5jxaRsQ_zL1jqDYiyBChiLDf3FAtdkdEZjjYFXzEER35sG2WAzlMjLVeQ3FeRX7r2g623svuuzbVx5DWXAk6k3iGG6Aluf5Yfp2iFlmgwcvCdlt0jvoWFt8mmv3Q9xxt2c8BQ6d_WMLZHpaHNSExo0Ci8wa2eqgX8SM2p6pG0r_YJkdG8nIPimnzX_gVwbmFguzno6sCjdt_-bXuHHM3xCnRJbKPQWPtymZ9h7MROu3xK0chPZUaSi2WCJqZDuUwG_pCI1rQ7cQz68m0zIhi3OBJPNN0KuoajdzlbKXc9hnI-nFRghd-JNyCiZJ8HNMvHjRbQMF3E8E-9Chv58FQaJn_iR7y-Wgb_az8SWyDks5vEquknCII7CYJUsg87tqcv1AKh0O1qHv6ld9v8BDq8GXg?type=png)](https://mermaid.live/edit#pako:eNqFk8FuozAQhl8F-ZSoaZQAKWD1stpeetjVSl31UHGZ4gmxCh404KpNNu--BtKUhCqdi7Hn1z_f2MNOZKRQSJEVUNd3GnKGMjWei_tqQwa923_X1x5jxaRsQ_zL1jqDYiyBChiLDf3FAtdkdEZjjYFXzEER35sG2WAzlMjLVeQ3FeRX7r2g623svuuzbVx5DWXAk6k3iGG6Aluf5Yfp2iFlmgwcvCdlt0jvoWFt8mmv3Q9xxt2c8BQ6d_WMLZHpaHNSExo0Ci8wa2eqgX8SM2p6pG0r_YJkdG8nIPimnzX_gVwbmFguzno6sCjdt_-bXuHHM3xCnRJbKPQWPtymZ9h7MROu3xK0chPZUaSi2WCJqZDuUwG_pCI1rQ7cQz68m0zIhi3OBJPNN0KuoajdzlbKXc9hnI-nFRghd-JNyCiZJ8HNMvHjRbQMF3E8E-9Chv58FQaJn_iR7y-Wgb_az8SWyDks5vEquknCII7CYJUsg87tqcv1AKh0O1qHv6ld9v8BDq8GXg)
